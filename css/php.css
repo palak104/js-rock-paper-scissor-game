@@ -1,0 +1,55 @@
+* {
+    margin: 0px;
+    padding: 0px;
+  
+}
+
+body {
+  background-color: darkgrey;
+  width: 320px;
+  
+}
+
+fieldset{
+  background-color: lightcyan;
+  margin: 15px;
+  font-size: 20px;
+  padding: 15px;
+
+}
+
+p{
+  font-family : 'Roboto', sans-serif;
+  text-align: center;
+  font-size: 20px;
+  
+}
+
+button {
+    
+  float: right;
+  font-weight: bold;
+  font-size: 15px;
+  margin: 15px;
+  width: 60px;
+  background:lightyellow;
+  border: 2px solid black;
+}
+
+
+.choices{
+  text-align: center;
+}
+
+.options {
+    display: inline-block;
+    font-size: 10px;
+    text-align: center;
+    width: 95px;
+    margin: 12px;
+    background-color: coral;
+    border: 3px solid black;
+    border-radius: 3px;
+  }
+ 
+  

@@ -1,0 +1,63 @@
+<!--
+I palak depani ,student no - 000787449 , cerify that all code submitted is my own work;
+that i have not copied from any other source .
+I also certify that i have not allowed my work to be copied by other.
+
+Purpose of this assignment is create game but before staring it taking some input from 
+user in form and then using that input value for display and then start small rock paper
+scissor game using button.
+
+-->
+
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Register Here</title>
+    
+    <link rel="stylesheet" href="css/php.css">
+</head>
+<body>
+    <form  >
+        <fieldset>
+        <p> It's time for old season game ! but befor starting it just 
+        submit the form first !</p> <br>
+     Name : <br>
+      <input type="text" id="username" placeholder="your name here" required>
+      <br>Age : <br>
+      <input type="number" id="userage" placeholder="25" required>
+      <br> Skill level :<br>
+      <input type="radio"  name="skill" value="low"  required>Low 
+      <input type="radio"  name="skill" value="medium"  required>Medium
+      <input type="radio"  name="skill"  value="high" required>High
+
+      <br>Favourite Color : 
+      <input type="color" id="usercolor" placeholder="color name" required> <br>
+      
+      <input type = "submit" id ="submit">
+    </fieldset>
+    </form>
+    <div class="choices">
+        <div class="options" id ="rock">
+            <p>Rock</p>
+          </div>
+          <div class="options" id ="paper">
+              <p>Paper</p>
+          </div>
+          <div class="options" id ="scissor">
+              <p> Scissor</p>
+          </div>
+      </div>
+      
+      <p id = "userChoice"></p> 
+      <p id = "compChoice"></p>
+      <p id = "winScore"></p>
+      <p id = "compWinScore"></p>
+      <p id = "drawScore"></p>
+      <p id = "message"></p>
+      <script src="js/php.js"></script> 
+     
+    
+</body>
+</html>
